@@ -1,0 +1,57 @@
+# ====================
+# PyCharm IDE
+# ====================
+# komplette IDE-Einstellungen ausblenden
+.idea/
+
+# projekt-spezifische Modul-Dateien
+*.iml
+
+# ====================
+# Python
+# ====================
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# virtuelle Umgebungen
+.venv/
+env/
+venv/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test- und Coverage-Ordner
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Mypy-Cache
+.mypy_cache/
+
+# ====================
+# Environment
+# ====================
+# Umgebungsdatei mit API-Keys etc.
+.env
+
+# ====================
+# Sonstiges
+# ====================
+# Logs
+*.log
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Betriebssystem-Dateien
+.DS_Store
+Thumbs.db
+
+# OneDrive-/Office-Temp
+~$*
